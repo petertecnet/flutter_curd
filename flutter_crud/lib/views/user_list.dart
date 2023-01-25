@@ -21,7 +21,7 @@ class UserList extends StatelessWidget {
                   id: '2',
                   name: 'Rafa',
                   email: 'Rafal@hotmail.com',
-                  avatarUrl: ''));
+                  avatarUrl: 'null'));
             },
           )
         ],
