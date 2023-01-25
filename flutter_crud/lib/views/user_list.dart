@@ -16,7 +16,9 @@ class UserList extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.add),
             color: Colors.white,
-            onPressed: () {},
+            onPressed: () {
+              users.remove(users.byIndex(0));
+            },
           )
         ],
       ),
