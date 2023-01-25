@@ -16,7 +16,13 @@ class UserList extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.add),
             color: Colors.white,
-            onPressed: () {},
+            onPressed: () {
+              users.put(User(
+                  id: '20',
+                  name: 'Rafa',
+                  email: 'Rafal@hotmail.com',
+                  avatarUrl: ''));
+            },
           )
         ],
       ),
