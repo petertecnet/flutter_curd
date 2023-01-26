@@ -25,9 +25,10 @@ class Users with ChangeNotifier {
     }
 
     if (user.id != null &&
-        user.id.trim().isEmpty &&
+        user.id.trim().isNotEmpty &&
         _itens.containsKey(user.id)) {
       _itens.update(
+      //Atualizar
         user.id,
         (_) => User(
           id: user.id,
