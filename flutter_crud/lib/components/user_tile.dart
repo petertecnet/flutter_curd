@@ -25,7 +25,10 @@ class UserTile extends StatelessWidget {
               icon: Icon(Icons.edit),
               color: Colors.orange,
               onPressed: () {
-                Navigator.of(context).pushNamed(AppRoutes.USER_FORM);
+                Navigator.of(context).pushNamed(
+                  AppRoutes.USER_FORM,
+                  arguments: user,
+                );
               },
             ),
             IconButton(

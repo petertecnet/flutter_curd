@@ -18,7 +18,9 @@ class UserList extends StatelessWidget {
             icon: Icon(Icons.add),
             color: Colors.white,
             onPressed: () {
-              Navigator.of(context).pushNamed(AppRoutes.USER_FORM);
+              Navigator.of(context).pushNamed(
+                AppRoutes.USER_FORM,
+              );
             },
           )
         ],
